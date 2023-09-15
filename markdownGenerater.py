@@ -1,4 +1,4 @@
-from main import load_data, get_summary_statistics, plot_histogram_save
+from lib import load_data, get_summary_statistics, plot_histogram_save
 
 def main():
     url = 'https://gist.githubusercontent.com/tiangechen/b68782efa49a16edaf07dc2cdaa855ea/raw/0c794a9717f18b094eabab2cd6a6b9a226903577/movies.csv'
