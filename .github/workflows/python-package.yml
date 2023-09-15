@@ -19,26 +19,31 @@ jobs:
         python-version: 3.9
 
     - name: Install dependencies
+      id: make_install
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        make install
 
     - name: Lint with ruff
+      id: make_lint
       run: |
-        pip install ruff
-        ruff src
+        make lint
 
     - name: Format code with black
+      id: make_format
       run: |
-        pip install black
-        black src --check
+        make format
 
     - name: Test with pytest
+      id: make_test
       run: |
-        pip install pytest
-        pytest
+        make test
+    - name: Test nbval
+      id: make_nbtest
+      run: |
+        make nbtest
 
     - name: Generate Markdown
+      id: gen_markdown
       run: |
         python3 markdownGenerater.py
 

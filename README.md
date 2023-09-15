@@ -3,6 +3,16 @@
 Data visualization using pandas.
 
 [![Python package](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+
+### Makefile Command Status
+
+- Install: [![Install](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_install)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Lint with ruff: [![Lint](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_lint)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Format with black: [![Format](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_format)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Test with pytest: [![Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_test)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Test notebook: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_nbtest)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Markdown Generation: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=gen_markdown)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+
 ## Makefile Usage
 
 
