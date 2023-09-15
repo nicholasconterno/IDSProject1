@@ -1,8 +1,8 @@
-# IDS Week 2 
+# IDS Project 1 
 
 Data visualization using pandas.
 
-[![Python package](https://github.com/nicholasconterno/IDS706Week3/actions/workflows/python-package.yml/badge.svg)](https://github.com/nicholasconterno/IDS706Week3/actions/workflows/python-package.yml)
+[![Python package](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
 ## Makefile Usage
 
 
