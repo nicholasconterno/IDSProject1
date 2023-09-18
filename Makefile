@@ -2,12 +2,10 @@
 
 install:
 	pip install -r requirements.txt
-
-lint:
-	ruff *.py
-
 format:
 	black *.py
+lint:
+	ruff *.py
 
 test:
 	pytest
