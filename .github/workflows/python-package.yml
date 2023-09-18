@@ -22,16 +22,15 @@ jobs:
       id: make_install
       run: |
         make install
-
-    - name: Lint with ruff
-      id: make_lint
-      run: |
-        make lint
-
+    
     - name: Format code with black
       id: make_format
       run: |
         make format
+    - name: Lint with ruff
+      id: make_lint
+      run: |
+        make lint
 
     - name: Test with pytest
       id: make_test
