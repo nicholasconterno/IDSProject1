@@ -13,7 +13,8 @@ class TestScriptExecution(unittest.TestCase):
     
     def test_script_runs_without_errors(self):
         # This will raise an error if the script has an error
-        result = subprocess.run(["python", "main.py",TEST_MD_PATH, TEST_HIST_PATH], capture_output=True, text=True)
+        result = subprocess.run(["python", "main.py",TEST_MD_PATH, TEST_HIST_PATH], \
+                                capture_output=True, text=True)
         self.assertEqual(result.returncode, 0)
 
     def test_markdown_file_generation(self):
