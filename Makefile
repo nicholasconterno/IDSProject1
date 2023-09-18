@@ -4,10 +4,10 @@ install:
 	pip install -r requirements.txt
 
 lint:
-	ruff src
+	ruff *.py
 
 format:
-	black src
+	black *.py
 
 test:
 	pytest
