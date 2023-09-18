@@ -2,8 +2,8 @@ from lib import load_data, get_mean, get_median,get_stdev,\
 get_summary_statistics, plot_histogram_save
 import argparse
 def main(mdPath, histogramPath):
-    url = 'https://gist.githubusercontent.com/tiangechen/b68782efa49a16e\
-        daf07dc2cdaa855ea/raw/0c794a9717f18b094eabab2cd6a6b9a226903577/movies.csv'
+    url = ('https://gist.githubusercontent.com/tiangechen/b68782efa49a16eda'
+           'f07dc2cdaa855ea/raw/0c794a9717f18b094eabab2cd6a6b9a226903577/movies.csv')
     df = load_data(url)
 
     # Print summary statistics
