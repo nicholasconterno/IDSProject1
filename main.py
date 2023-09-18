@@ -17,7 +17,7 @@ def main(mdPath, histogramPath):
     print(f"Standard Deviation of 'Rotten Tomatoes %': {get_stdev(df, 'Rotten Tomatoes %')}")
 
     # Plotting a histogram for 'rating'
-    fname= plot_histogram_save(df, 'Rotten Tomatoes %',filename=histogramPath)
+    plot_histogram_save(df, 'Rotten Tomatoes %',filename=histogramPath)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 
-from lib import load_data, get_mean, get_median,get_stdev,get_summary_statistics
+from lib import load_data, get_mean, get_median,get_stdev
 import unittest
 class TestDataMethods(unittest.TestCase):
 
