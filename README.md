@@ -1,4 +1,4 @@
-# IDS Project 1 
+# IDS Project 1
 
 Data visualization using pandas.
 
