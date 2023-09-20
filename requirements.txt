@@ -7,6 +7,6 @@ tabulate==0.8.9
 pyarrow==5.0.0
 polars==0.16.1
 pytest==6.2.5
-nbval==0.9.7
+nbval==0.9.6
 black==21.9b0
 ruff==0.0.289
