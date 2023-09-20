@@ -6,12 +6,12 @@ Data visualization using pandas.
 
 ### Makefile Command Status
 
-- Install: [![Install](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_install)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
-- Lint with ruff: [![Lint](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_lint)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
-- Format with black: [![Format](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_format)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
-- Test with pytest: [![Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_test)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
-- Test notebook: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=make_nbtest)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
-- Markdown Generation: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml/badge.svg?event=push&step=gen_markdown)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/python-package.yml)
+- Install: [![Install](https://github.com/nicholasconterno/IDSProject1/actions/workflows/install-dependencies.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/install-dependencies.yml)
+- Lint with ruff: [![Lint](https://github.com/nicholasconterno/IDSProject1/actions/workflows/lint-code.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/lint-code.yml)
+- Format with black: [![Format](https://github.com/nicholasconterno/IDSProject1/actions/workflows/format-code.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/format-code.yml)
+- Test with pytest: [![Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/run-tests.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/run-tests.yml)
+- Test notebook: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/run-nbval.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/run-nbval.yml)
+- Markdown Generation: [![Notebook Test](https://github.com/nicholasconterno/IDSProject1/actions/workflows/generate-markdown.yml/badge.svg)](https://github.com/nicholasconterno/IDSProject1/actions/workflows/generate-markdown.yml)
 
 ## Makefile Usage
 
