@@ -7,9 +7,13 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
-
+  
     steps:
     - uses: actions/checkout@v2
+    - name: Install dependencies
+      id: make_install
+      run: |
+        make install
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
